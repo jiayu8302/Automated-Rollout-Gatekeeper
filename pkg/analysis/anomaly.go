@@ -3,7 +3,7 @@ package analysis
 import (
 	"errors"
 	"fmt"
-	"github.com/your-username/automated-rollout-gatekeeper/pkg/config"
+	"github.com/jiayu8302/automated-rollout-gatekeeper/pkg/config"
 )
 
 var (
