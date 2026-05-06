@@ -1,0 +1,7 @@
+# Deployment Reliability Engine Policy
+deployment_id: "dre-svc-prod-001"
+version: "v2.1.4-stable"
+strategy: "canary"
+canary_weight: 10
+error_threshold: 0.02
+analysis_window: "15s"
