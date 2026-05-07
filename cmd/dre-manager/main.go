@@ -14,6 +14,7 @@ import (
 	"github.com/jiayu8302/deployment-reliability-engine/pkg/providers/azure"
 	"github.com/jiayu8302/deployment-reliability-engine/pkg/providers/k8s"
 	"github.com/jiayu8302/deployment-reliability-engine/pkg/providers/mock"
+	yaml "gopkg.in/yaml.v3"
 )
 
 // Config represents the internal configuration structure, mapping the target provider.
